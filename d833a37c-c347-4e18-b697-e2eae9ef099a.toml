@@ -1,0 +1,184 @@
+
+author = 'Prof. Nuzzo'
+tags = [
+]
+language = 'en'
+config.title = 'Quiz di grammatica e storia'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 15000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ti dò un pezzo di pane', correct = false },
+	{ content.Text = "Ti do' un pezzo di pane", correct = false },
+	{ content.Text = 'Ti do un pezzo di pane', correct = true },
+	{ content.Text = 'Ti dho un pezzo di pane', correct = false },
+]
+title = 'Quale di queste frasi è scritta correttamente?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Trapassato prossimo', correct = true },
+	{ content.Text = 'Futuro anteriore', correct = false },
+	{ content.Text = 'Futuro semplice', correct = false },
+	{ content.Text = 'Passato prossimo', correct = false },
+]
+title = 'Che tempo è il verbo "avevamo bevuto"?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Perieci', correct = false },
+	{ content.Text = 'Iloti', correct = false },
+	{ content.Text = 'Spartiati', correct = true },
+]
+title = 'Qual era il primo livello della società spartana?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 15000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ecasta', correct = false },
+	{ content.Text = 'Ecosta', correct = false },
+	{ content.Text = 'Ecesta', correct = false },
+	{ content.Text = 'Ecista', correct = true },
+]
+title = "Come si chiama l'aristocratico che fonda una colonia?"
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 5000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Qual è', correct = true },
+	{ content.Text = "Qual'è", correct = false },
+	{ content.Text = "Qual'e", correct = false },
+	{ content.Text = 'Qual e', correct = false },
+]
+title = 'Come si scrive?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Esaminerà', correct = false },
+	{ content.Text = 'Esamineremo', correct = false },
+	{ content.Text = 'Esaminammo', correct = false },
+	{ content.Text = 'Esaminò', correct = true },
+]
+title = 'Terza persona plurale, passato remoto, verbo esaminare'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 15000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Qualche', correct = false },
+	{ content.Text = 'Nostri', correct = true },
+	{ content.Text = 'Diversi', correct = false },
+	{ content.Text = 'Tra', correct = false },
+]
+title = 'Trova il pronome possessivo'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 5000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Vero', correct = false },
+	{ content.Text = 'Falso', correct = true },
+]
+title = 'I pentacosiomedimni possedevano 300 medimni'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 15000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Un re spartano', correct = false },
+	{ content.Text = 'Un arconte ateniese', correct = true },
+	{ content.Text = 'Un famoso sportivo', correct = false },
+	{ content.Text = 'Il fresco di zona', correct = false },
+]
+title = 'Solone era'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Sono più bravo di te', correct = false },
+	{ content.Text = 'Sono il più bravo della classe', correct = true },
+	{ content.Text = 'Sono bravissimo', correct = false },
+	{ content.Text = 'Non so cosa sia un superlativo relativo', correct = false },
+]
+title = 'Indica il superlativo relativo'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Il momento di massima tensione', correct = true },
+	{ content.Text = 'Un finale chiuso', correct = false },
+	{ content.Text = "Un sinonimo per indicare l'incipit in medias res", correct = false },
+	{ content.Text = 'Una parolaccia in tedesco', correct = false },
+]
+title = 'Lo spannung è '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Sì', correct = true },
+	{ content.Text = 'No', correct = true },
+	{ content.Text = 'Mi ero dimenticato ci fosse', correct = true },
+]
+title = 'Riusciremo a consegnare il lavoro in tempo?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Facciamo i bravi', correct = true },
+	{ content.Text = 'Stiamo tranquilli', correct = true },
+	{ content.Text = 'Ci impegniamo', correct = true },
+	{ content.Text = 'Cerchiamo di migliorarci', correct = true },
+]
+title = 'Prima del consiglio di classe '
