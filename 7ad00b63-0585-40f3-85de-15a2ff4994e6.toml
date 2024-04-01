@@ -1,0 +1,468 @@
+
+author = 'Pallavi'
+tags = [
+]
+language = 'en'
+config.title = "Women's History Trivia"
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Condolezza Right', correct = false },
+	{ content.Text = 'Hillary Rodham Clinton', correct = false },
+	{ content.Text = 'Susan Rice', correct = false },
+	{ content.Text = 'Madeleine Albright', correct = true },
+]
+title = 'Which of the following women was the first female US Secretary of State?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Marlene Sanders', correct = false },
+	{ content.Text = 'Barbara Walters', correct = true },
+	{ content.Text = 'Susan Stambeg', correct = false },
+	{ content.Text = 'Diane Sawyer', correct = false },
+]
+title = 'Who was the first woman to co-anchor a news show?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Illinois', correct = false },
+	{ content.Text = 'New Mexico', correct = false },
+	{ content.Text = 'Massachusetts', correct = false },
+	{ content.Text = 'California', correct = true },
+]
+title = 'What US state was Kamala Harris a senator for before becoming Vice President?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Athletics', correct = false },
+	{ content.Text = 'Figure skating', correct = false },
+	{ content.Text = 'Gymnastics', correct = true },
+	{ content.Text = 'Swimming', correct = false },
+]
+title = 'Simone Biles is the most decorated athlete in which of the following sports?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Education of women and children', correct = true },
+	{ content.Text = 'Promoting the rights of refugees', correct = false },
+	{ content.Text = 'Contribution to sustainable development', correct = false },
+	{ content.Text = 'Climate change activism', correct = false },
+]
+title = 'Malala Yousafzai is the world’s youngest Nobel Peace Price laureate for her work in which cause?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Domestic workers', correct = false },
+	{ content.Text = 'Healthcare workers', correct = false },
+	{ content.Text = 'Teachers', correct = false },
+	{ content.Text = 'Farm workers', correct = true },
+]
+title = 'Dolores Huerta was a key labor leader and activist for which group of workers?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Rigoberta Menchú', correct = true },
+	{ content.Text = 'Ana Mendieta', correct = false },
+	{ content.Text = 'Ileana Ros-Lehtinen ', correct = false },
+	{ content.Text = 'Rosalina Tuyuc Velásquez', correct = false },
+]
+title = 'Which Guatemalan activist is known for her work for ethnocultural reconciliation and Indigenous righ'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Janet Mock', correct = false },
+	{ content.Text = 'Indya Moore', correct = false },
+	{ content.Text = 'Laverne Cox', correct = true },
+	{ content.Text = 'Caitlyn Jenner', correct = false },
+]
+title = 'Who was the first openly transgender woman to appear on the cover of Time magazine?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Anna May Wong ', correct = true },
+	{ content.Text = 'Michelle Yeoh', correct = false },
+	{ content.Text = 'Rosalind Chao', correct = false },
+	{ content.Text = 'Lucy Liu', correct = false },
+]
+title = 'Who was the first Chinese-American movie star in Hollywood?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Bell Hooks', correct = false },
+	{ content.Text = 'Toni Morrison', correct = true },
+	{ content.Text = 'Alice Walker', correct = false },
+	{ content.Text = 'Maya Angelou', correct = false },
+]
+title = 'Who was the first African American woman to win the Nobel Prize for literature?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'The Barbie doll', correct = false },
+	{ content.Text = 'Beauty/Hair care products', correct = true },
+	{ content.Text = 'Electric refrigerator', correct = false },
+	{ content.Text = 'Hot comb', correct = false },
+]
+title = 'Madam C.J Walker is known as the first self-made Black female millionaire. What products led to her '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Shirley Chisholm', correct = true },
+	{ content.Text = 'Barbara Jordan', correct = false },
+	{ content.Text = 'Carol Moseley Braun', correct = false },
+	{ content.Text = 'Eleanor Holmes Norton', correct = false },
+]
+title = 'Which politician was the first Black woman to be elected to the United States Congress?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ruth Bader Ginsburg', correct = false },
+	{ content.Text = 'Sandra Day O’Connor', correct = true },
+	{ content.Text = 'Sonia Sotomayor', correct = false },
+	{ content.Text = 'Elena Kagan', correct = false },
+]
+title = 'Who was the first female justice on the United States Supreme Court?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Rosalind Franklin', correct = true },
+	{ content.Text = 'Lisa Meitner', correct = false },
+	{ content.Text = 'Rachel Carson', correct = false },
+	{ content.Text = 'Barbara McClintock', correct = false },
+]
+title = 'Which scientist’s contribution led to the discovery of the structure of DNA?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Kitty O’Brien Joyner', correct = false },
+	{ content.Text = 'Sally Ride', correct = false },
+	{ content.Text = 'Katherine Johnson', correct = true },
+	{ content.Text = 'Mary Jackson', correct = false },
+]
+title = 'Which mathematician was known as ‘the human computer’ and helped calculate trajectories for the firs'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Florence Nightingale', correct = true },
+	{ content.Text = 'Clara Barton', correct = false },
+	{ content.Text = 'Virginia Henderson', correct = false },
+	{ content.Text = 'Dorothea Dix', correct = false },
+]
+title = 'Who is known as the founder of ‘modern nursing’ and helped further army medical services?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Julia Robinson', correct = false },
+	{ content.Text = 'Amy Noether', correct = false },
+	{ content.Text = 'Grace Hopper', correct = false },
+	{ content.Text = 'Ada Lovelace', correct = true },
+]
+title = 'Which of the following mathematicians is considered to be the first computer programmer?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Gerty Cori', correct = false },
+	{ content.Text = 'Marie Curie', correct = true },
+	{ content.Text = 'May-Britt Moser', correct = false },
+	{ content.Text = 'Barbara McClintock', correct = false },
+]
+title = 'Which scientist was the first woman to receive a Nobel Prize and the first person to receive two Nob'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Émilie du Châtelet', correct = false },
+	{ content.Text = 'Cecilia Payne-Gaposchkin', correct = true },
+	{ content.Text = 'Sandra Faber', correct = false },
+	{ content.Text = 'Henrietta Swan Leavitt', correct = false },
+]
+title = 'Which astronomer and physicist discovered the composition of stars?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Thailand', correct = false },
+	{ content.Text = 'Indonesia', correct = false },
+	{ content.Text = 'Philippines', correct = true },
+	{ content.Text = 'Malaysia', correct = false },
+]
+title = 'Corazon Aquino, known as the “Mother of Asian Democracy,” was the first female president of which co'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = ' Virginia Woolf', correct = false },
+	{ content.Text = 'Edith Wharton', correct = true },
+	{ content.Text = 'Toni Morrison', correct = false },
+	{ content.Text = 'Emily Dickinson', correct = false },
+]
+title = 'Who was the first woman to win the Pulitzer Prize for Fiction, achieving this in 1921?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Gwendolyn Brooks', correct = false },
+	{ content.Text = 'Toni Morrison', correct = false },
+	{ content.Text = 'Audre Lorde', correct = false },
+	{ content.Text = 'Maya Angelou', correct = true },
+]
+title = 'Which renowned poet, memoirist, and civil rights activist delivered a poem at President Bill Clinton'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Alphabet blocks', correct = false },
+	{ content.Text = 'Technique of weaving straw with silk and thread ', correct = true },
+	{ content.Text = ' Submarine telescope and lamp', correct = false },
+	{ content.Text = 'Straw broom and pan', correct = false },
+]
+title = 'Mary Kies was the first woman to be granted a U.S. Patent. What did she invent? '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'The Mortgage Game ', correct = false },
+	{ content.Text = 'The Boardwalk Game ', correct = false },
+	{ content.Text = 'The Real Estate Game', correct = false },
+	{ content.Text = ' The Landlords Game ', correct = true },
+]
+title = 'Lizzie Magie was the inventor of the original Monopoly game. What was it called? '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Elena Lucrezia Cornaro Piscopia', correct = true },
+	{ content.Text = 'Marie Curie', correct = false },
+	{ content.Text = 'Hypatia of Alexandria', correct = false },
+	{ content.Text = 'Ada Lovelace', correct = false },
+]
+title = 'Who was the first woman to receive an academic degree from a university and the first woman in the w'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Rosalind Franklin', correct = false },
+	{ content.Text = 'Dorothy Crowfoot Hodgkin', correct = false },
+	{ content.Text = 'Marie Maynard Daly', correct = true },
+	{ content.Text = 'Rachel Carson', correct = false },
+]
+title = 'In 1947, who became the first Black American woman to graduate with a Ph.D. in chemistry in the U.S.'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Grace Hopper', correct = false },
+	{ content.Text = 'Chien-Shiung Wu', correct = true },
+	{ content.Text = ' Hedy Lamarr', correct = false },
+	{ content.Text = 'Emmy Noether', correct = false },
+]
+title = 'Who was a Chinese-American physicist who made significant contributions to the field of nuclear phys'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Nadia Comăneci', correct = true },
+	{ content.Text = 'Simone Biles', correct = false },
+	{ content.Text = 'Mary Lou Retton', correct = false },
+	{ content.Text = 'Gabby Dougla', correct = false },
+]
+title = 'Who is considered one of the greatest gymnasts of all time, earning the first perfect score of 10.0 '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = ' Sylvia Rivera', correct = false },
+	{ content.Text = 'Marsha P. Johnson', correct = true },
+	{ content.Text = 'Audre Lorde', correct = false },
+	{ content.Text = 'Bayard Rustin', correct = false },
+]
+title = 'Which LGBTQ+ rights activist and drag queen played a pivotal role in the Stonewall Uprising of 1969?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Mae Jemison', correct = true },
+	{ content.Text = 'Sally Ride', correct = false },
+	{ content.Text = 'Valentina Tereshkova', correct = false },
+	{ content.Text = 'Peggy Whitson', correct = false },
+]
+title = 'Who was the first African-American woman to travel in space?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ida B. Wells', correct = true },
+	{ content.Text = 'Sojourner Truth', correct = false },
+	{ content.Text = 'Harriet Tubman', correct = false },
+	{ content.Text = 'Rosa Parks', correct = false },
+]
+title = 'Which African-American journalist, suffragist, and early leader in the civil rights movement, invest'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Florence Beatrice Price', correct = true },
+	{ content.Text = 'Ethel Smyth', correct = false },
+	{ content.Text = 'Amy Beach', correct = false },
+	{ content.Text = 'William Grant Still', correct = false },
+]
+title = 'Who was the first African American woman to gain recognition as a symphonic composer, with her compo'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ketanji Brown Jackson', correct = true },
+	{ content.Text = 'Sonia Sotomayor', correct = false },
+	{ content.Text = ' Ruth Bader Ginsburg', correct = false },
+	{ content.Text = "Sandra Day O'Connor", correct = false },
+]
+title = 'Who is the first African American woman, nominated by President Joe Biden and eventually sworn in, t'
