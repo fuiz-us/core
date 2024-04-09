@@ -1,0 +1,44 @@
+
+author = 'Cristine'
+tags = [
+]
+language = 'en'
+config.title = 'Pagsusulit sa Filipino tungkol sa WIKA'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 15000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Pag-aaral sa paaralan', correct = false },
+	{ content.Text = 'Pakikisalamuha sa kapwa', correct = false },
+	{ content.Text = 'Pakikipag-ugnayan sa social media', correct = false },
+	{ content.Text = 'Pagkasilang hanggang sa maunawaan ito', correct = true },
+]
+title = 'Ang unang wika ay wikang katutubong natamo sa?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 5000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Natutuhan sa paaralan', correct = false },
+	{ content.Text = 'Kakayahang gamit nito', correct = false },
+	{ content.Text = 'Natutuhan sa pagkasilang', correct = true },
+	{ content.Text = 'Natutuhan sa pakikipag-ugnayan sa kapwa', correct = false },
+]
+title = 'Ang pangalawang wika ay natamo sa mga sumusunod na dahilan maliban sa?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+]
+title = ''
