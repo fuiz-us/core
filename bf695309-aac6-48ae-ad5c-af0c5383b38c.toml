@@ -1,0 +1,398 @@
+
+author = 'mmq'
+tags = [
+]
+language = 'de'
+config.title = 'Molekularbiologie'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) Die Lehre von der Struktur und Funktion von Zellen', correct = false },
+	{ content.Text = 'b) Die Lehre von den molekularen Grundlagen der Nukleinsäuren und Proteine', correct = true },
+	{ content.Text = 'c) Die Lehre von der Entwicklung von Organismen', correct = false },
+	{ content.Text = 'c) Die Lehre von der Entwicklung von Organismen', correct = false },
+]
+title = 'Was versteht man unter Molekularbiologie?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) H2O', correct = false },
+	{ content.Text = 'b) Glucose', correct = false },
+	{ content.Text = 'c) Polysaccharid', correct = true },
+	{ content.Text = 'd) Nukleotid', correct = false },
+]
+title = 'Welches der folgenden ist ein Makromolekül?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Bakterien', correct = true },
+	{ content.Text = 'Eukaryoten', correct = false },
+	{ content.Text = 'Pilze', correct = false },
+	{ content.Text = 'Pflanzen', correct = false },
+]
+title = 'Welche der folgenden Gruppen enthält einzellige Mikroorganismen ohne Zellkern?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Adenin (A) mit Guanin (G)', correct = false },
+	{ content.Text = 'Cytosin (C) mit Uracil (U)', correct = false },
+	{ content.Text = 'Adenin (A) mit Thymin (T)', correct = true },
+	{ content.Text = 'Guanin (G) mit Thymin (T)', correct = false },
+]
+title = 'Welche Basenpaarung ist korrekt in der DNA?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'mRNA, tRNA, rRNA, miRNA', correct = true },
+	{ content.Text = 'DNA, RNA, Proteine', correct = false },
+	{ content.Text = 'mRNA, DNA, Enzyme', correct = false },
+	{ content.Text = 'tRNA, DNA, Lipide', correct = false },
+]
+title = 'Welche Haupttypen von RNA gibt es?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'G1-Phase', correct = false },
+	{ content.Text = 'G2-Phase', correct = false },
+	{ content.Text = 'S-Phase', correct = true },
+	{ content.Text = 'M-Phase', correct = false },
+]
+title = 'In welcher Phase des Zellzyklus verdoppelt sich die DNA?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'DNA-Polymerase', correct = false },
+	{ content.Text = 'Helicase', correct = true },
+	{ content.Text = 'Primase', correct = false },
+	{ content.Text = 'Ligase', correct = false },
+]
+title = 'Welches Enzym entwindet die DNA-Doppelhelix während der Replikation?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ein einzelnes Chromosom', correct = false },
+	{ content.Text = 'Die Gesamtheit aller Gene eines Organismus', correct = false },
+	{ content.Text = 'Das Erscheinungsbild eines Chromosomensatzes', correct = true },
+	{ content.Text = 'Ein bestimmtes Protein im Zellkern', correct = false },
+]
+title = 'Was ist ein Karyotyp?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Eine Nukleotidsequenz, die für ein Protein kodiert', correct = true },
+	{ content.Text = 'Ein Lipid, das in der Zellmembran vorkommt', correct = false },
+	{ content.Text = 'Ein Zucker, der in der DNA vorkommt', correct = false },
+	{ content.Text = 'Ein Teil der Zellwand', correct = false },
+]
+title = 'Was ist ein Gen?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Speicherung von genetischer Information', correct = false },
+	{ content.Text = 'Beteiligung an der Proteinbiosynthese', correct = true },
+	{ content.Text = 'Transport von Lipiden', correct = false },
+	{ content.Text = 'Abbau von Proteinen', correct = false },
+]
+title = 'Was ist die Funktion der mRNA?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Entwindung der DNA', correct = false },
+	{ content.Text = 'Synthese von DNA-Primer', correct = false },
+	{ content.Text = 'Katalyse der Bindung von Aminosäuren', correct = false },
+	{ content.Text = 'Synthese der prä-mRNA', correct = true },
+]
+title = 'Welche Aufgabe hat die RNA-Polymerase während der Transkription?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Entwindung der DNA-Doppelhelix', correct = false },
+	{ content.Text = 'Entfernung der RNA-Primer', correct = false },
+	{ content.Text = 'Verknüpfung der Okazaki-Fragmente', correct = true },
+	{ content.Text = 'Synthese der DNA-Primer', correct = false },
+]
+title = 'Welche Aufgabe hat die DNA-Ligase während der Replikation?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ribosomen', correct = true },
+	{ content.Text = 'Zellkern', correct = false },
+	{ content.Text = 'Mitochondrien', correct = false },
+	{ content.Text = 'Golgi-Apparat', correct = false },
+]
+title = 'Welche Struktur ist verantwortlich für die Translation der mRNA zu Proteinen?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Eine Sequenz von vier Nukleotiden', correct = false },
+	{ content.Text = 'Eine Sequenz von drei Nukleotiden, die eine Aminosäure kodieren', correct = true },
+	{ content.Text = 'Ein Protein, das in der Zellmembran vorkommt', correct = false },
+	{ content.Text = 'Eine DNA-Sequenz, die nicht kodiert', correct = false },
+]
+title = 'Was ist ein Codon?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Speichern genetische Information', correct = false },
+	{ content.Text = 'Transportieren Aminosäuren zu den Ribosomen', correct = true },
+	{ content.Text = 'Synthetisieren DNA-Primer', correct = false },
+	{ content.Text = 'Entfernen RNA-Primer', correct = false },
+]
+title = 'Was ist die Hauptfunktion der tRNA?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '72', correct = false },
+	{ content.Text = '55', correct = false },
+	{ content.Text = '96', correct = true },
+	{ content.Text = '37', correct = false },
+]
+title = 'Welche Temperatur wird bei der Denaturierung in der PCR verwendet?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Denaturierung der DNA', correct = false },
+	{ content.Text = 'Synthese des neuen DNA-Strangs', correct = true },
+	{ content.Text = 'Bindung an spezifische Zielsequenzen', correct = false },
+	{ content.Text = 'Stabilisierung der DNA', correct = false },
+]
+title = 'Was ist die Rolle der DNA-Polymerase in der PCR?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Sie katalysieren die Aktivität der DNA-Polymerase.', correct = true },
+	{ content.Text = 'Sie denaturieren die DNA.', correct = false },
+	{ content.Text = 'Sie markieren den Startpunkt der Synthese.', correct = false },
+	{ content.Text = 'Sie halten den pH-Wert konstant.', correct = false },
+]
+title = 'Welche Funktion haben Magnesiumionen in der PCR?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '96', correct = false },
+	{ content.Text = '55 - 65', correct = true },
+	{ content.Text = '72', correct = false },
+	{ content.Text = '37', correct = false },
+]
+title = 'Welche Temperatur wird bei der Primer-Hybridisierung in der PCR verwendet?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Real-Time-PCR', correct = false },
+	{ content.Text = 'Multiplex-PCR', correct = true },
+	{ content.Text = 'Reverse-Transkriptase-PCR', correct = false },
+	{ content.Text = 'Nested-PCR', correct = false },
+]
+title = 'Welche Variante der PCR ermöglicht die gleichzeitige Amplifikation mehrerer DNA-Sequenzen in einer einzigen Reaktion?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Real-Time-PCR', correct = false },
+	{ content.Text = 'Multiplex-PCR', correct = false },
+	{ content.Text = 'Reverse-Transkriptase-PCR', correct = true },
+	{ content.Text = 'Nested-PCR', correct = false },
+]
+title = 'Welche Methode wird verwendet, um RNA in DNA umzuschreiben und dann diese cDNA zu amplifizieren?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Real-Time-PCR', correct = true },
+	{ content.Text = 'Multiplex-PCR', correct = false },
+	{ content.Text = 'Reverse-Transkriptase-PCR', correct = false },
+	{ content.Text = 'Standard-PCR', correct = false },
+]
+title = 'Welche Variante der PCR ermöglicht die Amplifizierung und Quantifizierung von DNA in Echtzeit?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Real-Time-PCR', correct = false },
+	{ content.Text = 'Multiplex-PCR', correct = false },
+	{ content.Text = 'Reverse-Transkriptase-PCR', correct = false },
+	{ content.Text = 'Nested-PCR', correct = true },
+]
+title = 'Welche Methode der PCR erhöht die Genauigkeit und Empfindlichkeit der DNA-Amplifikation durch zwei aufeinanderfolgende Amplifikationen?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'SYBR Green I ', correct = true },
+	{ content.Text = 'PicoGreen', correct = false },
+	{ content.Text = 'DAPI ', correct = false },
+	{ content.Text = 'Hoechst ', correct = false },
+]
+title = 'Welche fluoreszierenden Farbstoffe werden in der unspezifischen Real-Time-PCR verwendet?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Sie verwendet keine Fluoreszenzfarbstoffe.', correct = false },
+	{ content.Text = 'Sie erlaubt die Quantifizierung der DNA in Echtzeit.', correct = true },
+	{ content.Text = 'Sie kann keine RNA amplifizieren.', correct = false },
+	{ content.Text = 'Sie verwendet keine thermostabile DNA-Polymerase.', correct = false },
+]
+title = 'Welche der folgenden Aussagen trifft auf die Real-Time-PCR zu?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Numerische Veränderung des Chromosomensatzes', correct = false },
+	{ content.Text = 'Veränderung eines oder mehrerer benachbarter Nukleotide', correct = true },
+	{ content.Text = 'Große Strukturveränderung eines Chromosoms', correct = false },
+	{ content.Text = 'Verlust von Abschnitten eines Chromosoms', correct = false },
+]
+title = 'Welche der folgenden Aussagen beschreibt eine Genmutation?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Substitution und Duplikation', correct = false },
+	{ content.Text = 'Deletion und Insertion', correct = false },
+	{ content.Text = 'Translokation und Inversion', correct = false },
+	{ content.Text = 'Alle oben genannten', correct = true },
+]
+title = 'Welche Mutationstypen gehören zu den Chromosomenmutationen?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Eine Mutation, die in der Keimbahn auftritt', correct = false },
+	{ content.Text = 'Eine Mutation, die nach der Befruchtung im Laufe des Lebens auftritt', correct = true },
+	{ content.Text = 'Eine Mutation, die nur in Pflanzen vorkommt', correct = false },
+	{ content.Text = 'Eine Mutation, die nur in Tieren vorkommt', correct = false },
+]
+title = 'Was ist eine somatische Mutation?'
