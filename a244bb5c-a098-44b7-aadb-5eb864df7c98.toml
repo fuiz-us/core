@@ -1,0 +1,146 @@
+
+author = 'n vakili'
+tags = [
+]
+language = 'en'
+config.title = 'اطلاعات عمومی'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) جگوار', correct = false },
+	{ content.Text = 'ب) پلنگ', correct = false },
+	{ content.Text = 'ج) ببر', correct = false },
+	{ content.Text = 'د) یوزپلنگ', correct = true },
+]
+title = ' سریع ترین حیوان خشکی کدام است؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) گربه', correct = false },
+	{ content.Text = 'ب) همستر', correct = false },
+	{ content.Text = 'ج) خرگوش', correct = false },
+	{ content.Text = 'د) سگ', correct = true },
+]
+title = ' کدام حیوان به عنوان بهترین دوست انسان شناخته می شود؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) مارمولک', correct = true },
+	{ content.Text = 'ب) سوسمار', correct = false },
+	{ content.Text = 'ج) بزمجه', correct = false },
+	{ content.Text = 'د) آفتاب پرست', correct = false },
+]
+title = ' اژدهای کومودو چه نوع حیوانی است؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) تمساح', correct = true },
+	{ content.Text = 'ب) لاک پشت', correct = false },
+	{ content.Text = 'ج) سوسمار', correct = false },
+	{ content.Text = 'د) قورباغه', correct = false },
+]
+title = ' کدام حیوان نمی تواند زبانش را بیرون بیاورد؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) سفید', correct = false },
+	{ content.Text = 'ب) سیاه و سفید', correct = false },
+	{ content.Text = 'ج) مشکی', correct = true },
+	{ content.Text = 'د) صورتی', correct = false },
+]
+title = 'پوست خرس قطبی زیر خز سفید آن ها چه رنگی است؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) نهنگ آبی', correct = true },
+	{ content.Text = 'ب) فیل', correct = false },
+	{ content.Text = 'ج) اسب آبی', correct = false },
+	{ content.Text = 'د) دلفین', correct = false },
+]
+title = 'بزرگترین پستاندار جهان کدام حیوان است؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) هشت', correct = false },
+	{ content.Text = 'ب) شش', correct = true },
+	{ content.Text = 'ج) ده', correct = false },
+	{ content.Text = 'د) چهار', correct = false },
+]
+title = 'سوسک ها چند پا دارند؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) سرو', correct = false },
+	{ content.Text = 'ب) سیب', correct = false },
+	{ content.Text = 'ج) زیتون', correct = true },
+	{ content.Text = 'د) سنجد', correct = false },
+]
+title = ' کدام درخت نماد صلح است؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) ماهی', correct = false },
+	{ content.Text = 'ب) موش', correct = false },
+	{ content.Text = 'ج) خرس', correct = false },
+	{ content.Text = 'د) مار', correct = true },
+]
+title = 'کدام حیوان ناشنوا است؟'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'الف) اسب آبی', correct = false },
+	{ content.Text = 'ب) وال', correct = true },
+	{ content.Text = 'ج) کرگدن', correct = false },
+	{ content.Text = 'د) فیل', correct = false },
+]
+title = 'سنگین ترین حیوان کدام است؟'
