@@ -1,0 +1,300 @@
+
+author = 'corrected_a_error'
+tags = [
+]
+language = 'en'
+config.title = 'Girls Who Code + App Team'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Fred Brooks', correct = false },
+	{ content.Text = 'J. Carlyle Sitterson', correct = false },
+	{ content.Text = 'Alan Turing', correct = true },
+	{ content.Text = 'Jack Snoeyink', correct = false },
+]
+title = "What mathematician is considered the 'Father of Computing?'"
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Hey There Mr. Little', correct = false },
+	{ content.Text = 'HyperText Markup Language', correct = true },
+	{ content.Text = 'HyperText Modeling Language', correct = false },
+	{ content.Text = 'HyperText Markup Lambda', correct = false },
+]
+title = 'What does the acronym "HTML" stand for?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '1998', correct = true },
+	{ content.Text = '1975', correct = false },
+	{ content.Text = '2001', correct = false },
+	{ content.Text = '1983', correct = false },
+]
+title = 'In what year was Google founded?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Mosaic', correct = false },
+	{ content.Text = 'Internet Explorer', correct = false },
+	{ content.Text = 'Firefox', correct = false },
+	{ content.Text = 'WorldWideWeb', correct = true },
+]
+title = 'What was the first graphical web browser?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Visual Private Network', correct = false },
+	{ content.Text = 'Virtual Private Network', correct = true },
+	{ content.Text = 'Variable Path Network', correct = false },
+	{ content.Text = 'Velocity Protocol Navigation', correct = false },
+]
+title = 'What does the acronym "VPN" stand for?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'iPhone', correct = true },
+	{ content.Text = 'iPod', correct = false },
+	{ content.Text = 'iCar', correct = false },
+	{ content.Text = 'iPager', correct = false },
+]
+title = 'Released in 2007, this Apple product revolutionized the smartphone industry. What is it?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Python', correct = false },
+	{ content.Text = 'HTML5', correct = false },
+	{ content.Text = 'PHP', correct = false },
+	{ content.Text = 'Rust', correct = true },
+]
+title = 'Developed by Mozilla, this programming language is often used for web development. What is it?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Bill Gates', correct = false },
+	{ content.Text = 'Steve Jobs', correct = false },
+	{ content.Text = 'Tim Berners-Lee', correct = true },
+	{ content.Text = 'Brad Pitt', correct = false },
+]
+title = 'Who is credited with inventing the World Wide Web?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Come Pull Up', correct = false },
+	{ content.Text = 'Central Processing Unit', correct = true },
+	{ content.Text = 'Control Processing Unit ', correct = false },
+	{ content.Text = 'Computer Programmed User', correct = false },
+]
+title = 'What does CPU stand for?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Facebook Messenger', correct = false },
+	{ content.Text = 'Kik', correct = false },
+	{ content.Text = 'WhatsApp', correct = true },
+	{ content.Text = 'Signal', correct = false },
+]
+title = 'In 2014, Facebook acquired this messaging app for $19 billion. What is the app?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Linux', correct = false },
+	{ content.Text = 'Ubuntu', correct = true },
+	{ content.Text = 'Fedora', correct = false },
+	{ content.Text = 'Debian', correct = false },
+]
+title = 'Which operating system is developed by the Open Source community and named after an antelope?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'The Matrix', correct = true },
+	{ content.Text = 'Cyberspace', correct = false },
+	{ content.Text = 'Metaverse', correct = false },
+	{ content.Text = 'Singularity', correct = false },
+]
+title = 'In the movie "The Matrix," what is the name of the VR world that humans are connected to?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Yale', correct = false },
+	{ content.Text = 'Harvard', correct = true },
+	{ content.Text = 'Stanford', correct = false },
+	{ content.Text = 'UNC', correct = false },
+]
+title = 'What university was Mark Zuckerberg attending when he created Facemash?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Voyager', correct = false },
+	{ content.Text = 'Opportunity', correct = false },
+	{ content.Text = 'Curiosity', correct = true },
+	{ content.Text = 'Spirit', correct = false },
+]
+title = 'What is the name of the robot developed by NASA that successfully landed on Mars in 2012?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '1972', correct = true },
+	{ content.Text = '1984', correct = false },
+	{ content.Text = '1975', correct = false },
+	{ content.Text = '2001', correct = false },
+]
+title = 'In what year was the iconic game "Pong" released, marking the beginning of the video game industry?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Middleware', correct = false },
+	{ content.Text = 'Operating System', correct = false },
+	{ content.Text = 'Application Software', correct = true },
+	{ content.Text = 'App', correct = true },
+]
+title = 'What is the term for a software application that is designed to perform a specific task?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'BlackBerry OS', correct = false },
+	{ content.Text = 'Tizen', correct = false },
+	{ content.Text = 'Windows Mobile', correct = false },
+	{ content.Text = "There isn't a third major OS", correct = true },
+]
+title = 'In addition to iOS and Android, what is the name of the third major mobile operating system?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Poshmark', correct = false },
+	{ content.Text = 'Amazon', correct = true },
+	{ content.Text = 'Google', correct = false },
+	{ content.Text = 'eBay', correct = false },
+]
+title = 'What major e-commerce platform started as an online bookstore?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'MRSA', correct = false },
+	{ content.Text = 'GDPR', correct = true },
+	{ content.Text = 'GPDR', correct = false },
+	{ content.Text = 'T&C', correct = false },
+]
+title = 'What is the acronym for the EU regulation that aims to protect the privacy and data of EU citizens?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Protocol', correct = false },
+	{ content.Text = 'Blueprint', correct = false },
+	{ content.Text = 'Algorithm', correct = true },
+	{ content.Text = 'Framework', correct = false },
+]
+title = 'In algorithms, what term is used to describe a step-by-step procedure/formula for solving a problem?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Donkey Kong', correct = false },
+	{ content.Text = 'The Legend of Zelda', correct = false },
+	{ content.Text = 'Mario Bros', correct = true },
+	{ content.Text = 'Wii Sports Resort', correct = false },
+]
+title = 'What classic Nintendo game features two Italian plumbers trying to rescue Princess Peach?'
