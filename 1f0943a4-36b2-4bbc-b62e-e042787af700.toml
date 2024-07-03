@@ -1,0 +1,174 @@
+
+author = 'Dr Sung'
+tags = [
+]
+language = 'en'
+config.title = 'Machine Vision Design'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Field Of Vision', correct = false },
+	{ content.Text = 'Frame Of Vision', correct = false },
+	{ content.Text = 'Field Of View', correct = true },
+	{ content.Text = ' Focus Of Visibility', correct = false },
+]
+title = 'What does "FOV" stand for in Machine Vision?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'By the width and height of the image', correct = true },
+	{ content.Text = 'By the number of colors present', correct = false },
+	{ content.Text = 'By the depth of field', correct = false },
+	{ content.Text = 'By the brightness levels', correct = false },
+]
+title = 'How is resolution typically identified in an image?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'To store captured images', correct = false },
+	{ content.Text = 'To release electrons when hit by photons', correct = true },
+	{ content.Text = 'To simulate what the final image will look like', correct = false },
+	{ content.Text = ' To adjust exposure settings', correct = false },
+]
+title = 'What is the role of silicon in digital cameras?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Based solely on hardware specifications ', correct = false },
+	{ content.Text = 'Based on the software capabilities ', correct = true },
+	{ content.Text = ' By considering the contrast of the image only ', correct = false },
+	{ content.Text = 'By determining the size of the sensor', correct = false },
+]
+title = 'How is the minimum detectable size calculated in machine vision practice? '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Larger sensors result in higher resolution images ', correct = false },
+	{ content.Text = 'Smaller sensors have better dynamic range ', correct = false },
+	{ content.Text = 'Bigger sensors collect more light for better sensitivity ', correct = true },
+	{ content.Text = 'Sensor size has no impact on image quality', correct = false },
+]
+title = 'How does the size of a sensor affect image quality? '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Reduced dynamic range ', correct = false },
+	{ content.Text = ' Increased color crosstalk ', correct = false },
+	{ content.Text = 'Improved light collection efficiency ', correct = true },
+	{ content.Text = ' Enhanced manufacturing complexity', correct = false },
+]
+title = 'What advantage does using microlenses on camera sensors offer? '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Longer exposure times prevent blurred images caused by moving parts. ', correct = false },
+	{ content.Text = 'Shorter exposure times are preferable to avoid blurring caused by moving parts. ', correct = true },
+	{ content.Text = 'Exposure time has no impact on image quality when capturing moving parts. ', correct = false },
+	{ content.Text = 'Exposure time influences the accuracy of measurements but not image quality.', correct = false },
+]
+title = 'How does exposure time affect image quality in relation to moving parts? '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '0 to 63', correct = false },
+	{ content.Text = ' 0 to 127', correct = false },
+	{ content.Text = '0 to 255 ', correct = true },
+	{ content.Text = '0 to 512', correct = false },
+]
+title = 'What is the range of possible values for an 8-bit integer in a byte image commonly used in digital i'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Lens compatibility ', correct = false },
+	{ content.Text = 'Shutter speed ', correct = false },
+	{ content.Text = 'Cable length supported by the interface ', correct = true },
+	{ content.Text = 'Sensor resolution', correct = false },
+]
+title = 'What factor is important for the choice of interface when considering the distance of the camera fro'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Distortion ', correct = true },
+	{ content.Text = 'Vignetting ', correct = false },
+	{ content.Text = 'Chromatic aberration ', correct = false },
+	{ content.Text = 'Spherical aberration', correct = false },
+]
+title = 'Which aberration affects the geometric accuracy of an image in photography?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'High ISO settings', correct = false },
+	{ content.Text = 'Lens vignetting', correct = true },
+	{ content.Text = 'Post-processing algorithms', correct = false },
+	{ content.Text = 'Sensor resolution', correct = false },
+]
+title = 'What is one potential cause of non-uniformity of image brightness in machine vision applications?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Diffusion', correct = false },
+	{ content.Text = 'Refraction  ', correct = false },
+	{ content.Text = 'Absorption', correct = false },
+	{ content.Text = 'Using a polarizer', correct = true },
+]
+title = 'What is the most common method of transforming unpolarized light into polarized light? '
