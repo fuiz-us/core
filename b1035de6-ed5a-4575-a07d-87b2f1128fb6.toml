@@ -1,0 +1,91 @@
+
+author = 'JL'
+tags = [
+	'',
+]
+language = 'en'
+config.title = 'Tipos de serviços de Internet.'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) Um serviço que utiliza cabos de fibra óptica para transmitir dados em alta velocidade, aproveitan', correct = true },
+	{ content.Text = 'b) Um serviço exclusivo para grandes empresas devido à sua complexidade técnica.', correct = false },
+	{ content.Text = 'c) Um tipo de conexão sem fio que utiliza sinais de rádio para transmitir dados.', correct = false },
+	{ content.Text = 'd) Um serviço com custo elevado e disponibilidade limitada em áreas urbanas.', correct = false },
+]
+title = 'O que é um serviço de Internet baseado em fibra óptica e como ele funciona?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) Fibra óptica, DSL e satélite', correct = true },
+	{ content.Text = 'b) Bluetooth, Wi-Fi e 5G', correct = false },
+	{ content.Text = 'c) USB, HDMI e Ethernet', correct = false },
+	{ content.Text = 'd) Android, iOS e Windows', correct = false },
+]
+title = 'Quais são as principais tecnologias utilizadas para fornecer acesso à Internet residencial?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) Download é a velocidade de envio de dados, enquanto upload é a velocidade de recebimento de dados', correct = false },
+	{ content.Text = 'b) Download é a velocidade de recebimento de dados, enquanto upload é a velocidade de envio de dados', correct = true },
+	{ content.Text = 'c) Não há diferença entre download e upload', correct = false },
+	{ content.Text = 'd) Download e upload se referem à mesma coisa', correct = false },
+]
+title = 'Qual é a diferença entre download e upload em termos de serviços de Internet?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) Dispositivo para armazenamento de dados pessoais', correct = false },
+	{ content.Text = 'b) Um software para gerenciar o tráfego de rede', correct = false },
+	{ content.Text = 'c) Um dispositivo que fornece armazenamento centralizado e compartilhado de arquivos', correct = true },
+	{ content.Text = 'd) Um componente que aumenta a velocidade da conexão de rede', correct = false },
+]
+title = 'O que é um servidor de arquivos em armazenamento em redes?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) Menor segurança', correct = false },
+	{ content.Text = 'b) Acesso remoto aos arquivos', correct = true },
+	{ content.Text = 'c) Maior custo de manutenção', correct = false },
+	{ content.Text = 'd) Armazenamento limitado', correct = false },
+]
+title = 'Quais são os benefícios de um sistema de armazenamento em nuvem em comparação com um sistema local?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'a) Gerenciar a segurança da rede', correct = false },
+	{ content.Text = 'b) Fornecer armazenamento local apenas para um dispositivo específico', correct = false },
+	{ content.Text = 'c) Permitir o acesso remoto aos arquivos armazenados', correct = false },
+	{ content.Text = 'd) Oferecer armazenamento centralizado e compartilhado de arquivos para múltiplos dispositivos na re', correct = true },
+]
+title = 'Qual é a função de um NAS (Network Attached Storage) em um sistema de armazenamento em redes?'
