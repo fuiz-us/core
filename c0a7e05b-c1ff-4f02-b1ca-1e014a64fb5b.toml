@@ -1,0 +1,207 @@
+
+author = 'Ashley Rudelsheim'
+tags = [
+	'',
+]
+language = 'en'
+config.title = 'George Orwell 1984'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Love and Romance', correct = false },
+	{ content.Text = 'Totalitarianism and Oppression', correct = true },
+	{ content.Text = 'Adventure and Exploration', correct = false },
+	{ content.Text = 'Comedy and Satire', correct = false },
+]
+title = "What is the main theme of George Orwell's \"1984\"?"
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Monitoring citizens', correct = false },
+	{ content.Text = 'Managing economic scarcity', correct = false },
+	{ content.Text = 'Altering historical records', correct = true },
+	{ content.Text = 'Enforcing Loyalty to Big Brother', correct = false },
+]
+title = "What is Winston's job at the Ministry of Truth?"
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Ministry of Truth', correct = false },
+	{ content.Text = 'Ministry of Love', correct = false },
+	{ content.Text = 'Ministry of Plenty', correct = false },
+	{ content.Text = 'Ministry of Justice', correct = true },
+]
+title = 'Which one of the following is NOT one of the ministries in Oceania?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = "Winston's colleague at the Ministry of Truth", correct = false },
+	{ content.Text = "Winston's lover", correct = true },
+	{ content.Text = 'A member of the thought police', correct = false },
+	{ content.Text = 'The leader of the Party', correct = false },
+]
+title = 'Who is Julia in 1984'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = "He is Winston's best friend", correct = false },
+	{ content.Text = 'He betrays Winston and is instrumental in his re-education', correct = true },
+	{ content.Text = 'He helps Winston escape from Oceania', correct = false },
+	{ content.Text = "He is Winston's boss at the Ministry of Truth", correct = false },
+]
+title = "What role does O'Brien play in Winston's life?"
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'To celebrate Big Brother', correct = false },
+	{ content.Text = "To channel citizens' emotions towards enemies of the state", correct = true },
+	{ content.Text = 'To entertain the Party members', correct = false },
+	{ content.Text = 'To relax and socialize', correct = false },
+]
+title = 'What is the purpose of the Two Minutes Hate'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'True', correct = false },
+	{ content.Text = 'False', correct = true },
+]
+title = "The party in \"1984\" allows personal and sexual relationships among it's members."
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'It premotes community spirit', correct = false },
+	{ content.Text = 'It instills a sense of constant surveillance', correct = true },
+	{ content.Text = 'It is a call for rebellion', correct = false },
+	{ content.Text = 'It is a motivational phrase', correct = false },
+]
+title = 'What is the significance of the slogan "BIG BROTHER IS WATCHING YOU"?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'True', correct = false },
+	{ content.Text = 'False', correct = true },
+]
+title = 'Big Brother is an actual person who leads the Party in Oceania'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Through military force', correct = false },
+	{ content.Text = 'By altering historical records and media', correct = true },
+	{ content.Text = 'By providing abundant resources', correct = false },
+	{ content.Text = 'Through democratic elections', correct = false },
+]
+title = 'How does the party control reality in "1984"?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'True', correct = true },
+	{ content.Text = 'False', correct = false },
+]
+title = 'The Thought Police are responsible for monitoring and punishing dissent in "1984"'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Oldspeak', correct = false },
+	{ content.Text = 'Newspeak', correct = true },
+	{ content.Text = 'Partyspeak', correct = false },
+	{ content.Text = 'Doublethink', correct = false },
+]
+title = 'What is the official language designed by the Party to restrict thought?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Romantic relationships', correct = false },
+	{ content.Text = 'Party Loyalty', correct = true },
+	{ content.Text = 'Economic planning', correct = false },
+	{ content.Text = 'Cultural activities', correct = false },
+]
+title = 'What does the Ministry of Love represent in the novel?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'True', correct = true },
+	{ content.Text = 'False', correct = false },
+]
+title = "Winston's rebellion includes engaging in a forbidden love affair with Julia"
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 2000
+answers = [
+	{ content.Text = 'True', correct = true },
+	{ content.Text = 'False', correct = false },
+]
+title = "David Bowie's album \"Diamond Dogs\" was inspired by the themes in \"1984\""
