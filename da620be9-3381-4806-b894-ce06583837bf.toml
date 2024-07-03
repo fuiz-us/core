@@ -1,0 +1,147 @@
+
+author = 'Mt'
+tags = [
+	'NwP KRW Akustik',
+]
+language = 'en'
+config.title = 'Quiz Akustik 1'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'f = T^2', correct = false },
+	{ content.Text = 'f = 1 / T', correct = true },
+	{ content.Text = 'f = T / 8', correct = false },
+	{ content.Text = 'f = T / 4', correct = false },
+]
+title = 'Ein Pendel mit Schwingungsdauer 0.25 s hat die Frequenz 4 Hz. Welche Formel stimmt?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Länge des Pendels', correct = true },
+	{ content.Text = 'Angehängte Pendelmasse', correct = false },
+	{ content.Text = 'Auslenkung des Pendels', correct = false },
+	{ content.Text = 'Keine der Antworten stimmt', correct = false },
+]
+title = 'Wovon hängt die Frequenz der Schwingung eines Pendels hauptsächlich ab?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '„stärker“ hin und her', correct = false },
+	{ content.Text = 'häufiger pro Sekunde hin und her', correct = true },
+	{ content.Text = 'gleich wie bei einer niedrigen Frequenz', correct = false },
+	{ content.Text = 'weniger „stark“ hin und her', correct = false },
+]
+title = 'Bei einer höheren Frequenz bewegt sich die Lautsprechermembran… '
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '„stärker“ hin und her', correct = true },
+	{ content.Text = 'häufiger pro Sekunde hin und her', correct = false },
+	{ content.Text = 'gleich wie bei einer niedrigen Frequenz', correct = false },
+	{ content.Text = 'weniger „stark“ hin und her', correct = false },
+]
+title = 'Bei einer höheren Amplitude bewegt sich die Lautsprechermembran...'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'schnell von der Quelle zum Empfänger', correct = false },
+	{ content.Text = 'schnell auf kleinem Raum hin und her', correct = true },
+	{ content.Text = 'wellenförmig auf und ab', correct = false },
+	{ content.Text = 'langsam von der Quelle zum Empfänger', correct = false },
+]
+title = 'Bei der Ausbreitung von Schallwellen bewegen sich die Luftteilchen...'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'weniger schnell als', correct = false },
+	{ content.Text = 'identisch wie', correct = false },
+	{ content.Text = 'gleich schnell wie', correct = false },
+	{ content.Text = 'schneller als', correct = true },
+]
+title = 'Schall breitet sich … ein Luftzug aus'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Luft', correct = false },
+	{ content.Text = 'Wasser', correct = false },
+	{ content.Text = 'Knochen', correct = false },
+	{ content.Text = 'Stahl', correct = true },
+]
+title = 'In welchem der genannten Materialien ist die Schallgeschwindigkeit am grössten?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = '1 km', correct = false },
+	{ content.Text = '2 km', correct = true },
+	{ content.Text = '3 km', correct = false },
+	{ content.Text = '4 km', correct = false },
+]
+title = 'Zwischen Blitz und Donner verstreichen 6 Sekunden. Wie weit ist das Gewitter entfernt?'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'höher', correct = false },
+	{ content.Text = 'tiefer', correct = false },
+	{ content.Text = 'lauter', correct = true },
+	{ content.Text = 'unverändert', correct = false },
+]
+title = 'Wenn ich eine Stimmgabel stärker anschlage, ist ihr Ton...'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Schall kann sich nur in Luft ausbreiten.', correct = false },
+	{ content.Text = 'Im Weltall ist es so leise, weill es nichts gibt, das den Schall leitet.', correct = true },
+	{ content.Text = 'Unser Gehör nimmt nur Laute wahr, die durch die Luft übertragen werden.', correct = false },
+	{ content.Text = 'Alle Materialien leiten tiefe Töne gleich gut wie hohe Töne.', correct = false },
+]
+title = 'Welche Aussag über die Schallausbreitung ist korrekt?'
