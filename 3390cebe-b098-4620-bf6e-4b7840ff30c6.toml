@@ -1,0 +1,111 @@
+
+author = 'Hugo Berendi'
+subjects = [
+	'Computer Science',
+]
+grades = [
+	'Secondary-School',
+]
+language = 'en'
+config.title = 'Computer Science'
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+title = 'Does Boilerplate exist in Java?'
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Yes', correct = true },
+	{ content.Text = 'No', correct = false },
+]
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+title = 'What does FOSS mean?'
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Free Open Source Software', correct = true },
+	{ content.Text = 'Funny Oxygen Supply Surpressor', correct = false },
+	{ content.Text = 'Free Open Service Software', correct = false },
+	{ content.Text = 'Free Operating System Security', correct = false },
+]
+
+[[config.slides]]
+
+[config.slides.Order]
+title = 'What is the easiest Language of them all?'
+introduce_question = 3000
+time_limit = 60000
+points_awarded = 1000
+axis_labels.from = 'most difficult'
+axis_labels.to = 'easiest'
+answers = [
+	'Assembler x86-64',
+	'Fortran',
+	'C',
+	'Java',
+	'Python',
+]
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+title = 'Which of them doesn´t steal your data?'
+introduce_question = 3000
+time_limit = 15000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Red Star OS', correct = false },
+	{ content.Text = 'Microsoft Windows', correct = false },
+	{ content.Text = 'Linus Torvalds', correct = true },
+	{ content.Text = 'Chinese Goverment', correct = false },
+]
+
+[[config.slides]]
+
+[config.slides.Order]
+title = 'Sort the distributions according to the beginner friendlieness. '
+introduce_question = 3000
+time_limit = 60000
+points_awarded = 1000
+axis_labels.from = 'Most difficult'
+axis_labels.to = 'easiest'
+answers = [
+	'Linux from Scratch',
+	'Gentoo',
+	'NixOS',
+	'Arch Linux',
+	'Fedora ',
+	'Ubuntu',
+]
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+title = 'Is the following command safe to use: sudo rm -rfi / '
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'Yes', correct = true },
+	{ content.Text = 'No', correct = false },
+]
+
+[[config.slides]]
+
+[config.slides.MultipleChoice]
+title = 'Wich filesystem does Linux mainly use?'
+introduce_question = 3000
+time_limit = 30000
+points_awarded = 1000
+answers = [
+	{ content.Text = 'NTFS', correct = false },
+	{ content.Text = 'ext4', correct = true },
+	{ content.Text = 'exFAT', correct = false },
+	{ content.Text = 'FAT32', correct = false },
+]
